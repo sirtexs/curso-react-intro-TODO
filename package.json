@@ -4,6 +4,7 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^4.11.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -24,9 +25,13 @@
       "not op_mini all"
     ],
     "development": [
+      "last 1 safari version",
       "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 firefox version"
     ]
-  }
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "homepage": "/Volumes/SSD/_DEV/Platzi/curso-react-intro/build/"
 }
